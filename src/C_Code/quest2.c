@@ -4,7 +4,6 @@ int main(void)
 {
     float faHeight=0,moHeight=0,youHeight=0;
     char sex='\0',habsport='\0',habeat='\0';
-    printf("2021116120朱思燚\n");
     printf("请问你是男性(M)还是女性(F):\n");
     scanf("%c",&sex);
     printf("请输入你父亲和母亲的身高(厘米)\n");

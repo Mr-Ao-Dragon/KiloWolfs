@@ -2,7 +2,6 @@
 int main(void)
 {
     float profit=0,flag=0,reward=0;
-    printf("2021116120朱思燚\n");
     printf("请输入企业利润(元)：");
     scanf("%f",&profit);
     if (profit <= 1e5)

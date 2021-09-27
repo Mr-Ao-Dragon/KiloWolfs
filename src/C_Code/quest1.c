@@ -3,7 +3,6 @@
 int main(void)
 {
     double pointx = 0, pointy = 0;
-    printf("2021116120朱思燚\n");
     printf("请输入一平面点的坐标：");
     scanf("%lf,%lf", &pointx, &pointy);
     if (fabs(pointx) <= 2 && fabs(pointy) <= 2)

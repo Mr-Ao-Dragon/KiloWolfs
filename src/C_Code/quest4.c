@@ -2,7 +2,6 @@
 int main(void)
 {
     char text='\0';
-    printf("2021116120朱思燚\n");
     printf("请输入一个字符\n");
     scanf("%c",&text);
     if ( ((int)text >= 65 && (int)text <= 90) || (((int)text) >= 97 && (int)text <= 122) )

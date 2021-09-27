@@ -2,7 +2,6 @@
 int main(void)
 {
     int year=0,month=0,day=0,sumday=0,yearflag=0;
-    printf("2021116120朱思燚\n");
     printf("请输入年、月、日：");
     scanf("%d,%d,%d",&year,&month,&day);
     if (((year%4 == 0)&&(year%100!=0))||(year%400 == 0)) //--To distinguish if is a run year :(
